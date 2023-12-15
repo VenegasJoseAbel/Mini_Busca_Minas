@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="5"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:paddingTop="40dp"
+        android:text="@string/total"
+        android:textColor="@color/morado"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonNuevo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonNuevo2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="209dp"
+        android:layout_weight="1"
+        android:text="@string/Nuevo"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="252dp"
+        android:layout_height="274dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/depp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
